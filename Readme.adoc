@@ -157,4 +157,5 @@ Added icons to some things that make noise
 .It was annoying hearing a cool voice line and then not being able to find what dropped:
 * Small Chromatic Recipe
 * 20% Flask
+* Silver Coin
 * Low Tier Div Cards

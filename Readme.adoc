@@ -103,8 +103,8 @@ Jun_OverHere.mp3, for T1, "New Maser, gets a major voice line"
 Zana_GoodLuckWithYourMapsExile.mp3, for Map, You'll need it
 Zana_MayYourMapsBeMerciful.mp3, for High Map, Please no reflect
 Zana_NeedAMapExile.mp3, for Low Map, "Yes, I do!"
-Izaro_DontGiveUp.mp3, for Disabled (Chancing), "I never hear him say this, but if you craft, don't give up"
 Izaro_DarkInfluences.mp3, for Splinter, "His voice sounds so dark, it's perfect for breaches"
+Izaro_DontGiveUp.mp3, for Disabled (Chancing), "I never hear him say this, but if you craft, don't give up"
 |==========================================================================================================
 
 Sounds added manually
@@ -154,8 +154,10 @@ Gemling_DivineJewels.mp3, for max level or T1 Gems, Rare
 Added icons to some things that make noise
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.It was annoying hearing a cool voice line and then not being able to find what dropped:
+.It was annoying hearing a cool voice line and then not being able to find what dropped so I added just the default blue circle icon to the map anywhere I added a sound that didn't have one:
 * Small Chromatic Recipe
 * 20% Flask
-* Silver Coin
+* Silver Coin / T2 Currency
 * Low Tier Div Cards
+
+I also removed the icon and beam from remaining (worthless) unique items

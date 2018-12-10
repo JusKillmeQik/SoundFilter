@@ -26,7 +26,9 @@ Since I never touch the Show/Hide when I make my edits, you can pick any Strictn
 I start with Semi-Strict and I use the Velvet color scheme.
 Unfortunately when you change the color scheme it breaks a lot of what I've done with sounds.
 If you want your own colors, you'll have to build it yourself following this guide.
+
 For presets I use Shaper Currency, Chaos only exclude T1/T2, Never hide Maps, Hide crafting bases
+
 In Advanced->Quick Functions, I Increase Font size by 45 and set End Game Threshold to 60
 
 All of the voice lines I pulled from the game using GGPKExtractor.
@@ -90,7 +92,7 @@ If you download my filter you'll have to have all of these files in a folder nam
 Sounds added using style only
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[grid="rows",format="csv"]
+[grid="rows,cols",format="csv"]
 [options="header",cols="<,^,>"]
 |==========================================================================================================
 Filename, Update, Note
@@ -108,7 +110,7 @@ Izaro_DarkInfluences.mp3, for Splinter, "His voice sounds so dark, it's perfect 
 Sounds added manually
 ^^^^^^^^^^^^^^^^^^^^^
 
-[grid="rows",format="csv"]
+[grid="rows,cols",format="csv"]
 [options="header",cols="<,^,>"]
 |========================================================================================================
 Filename, Location, Note

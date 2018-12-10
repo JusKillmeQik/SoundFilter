@@ -43,45 +43,45 @@ First - Disable Normal Chancing Bases
 
 Currency Updates
 ^^^^^^^^^^^^^^^^
-Scroll of Wisdom - TX Brown
-Portal Scroll - TX Dark Blue
+* Scroll of Wisdom - TX Brown
+* Portal Scroll - TX Dark Blue
 
 Fragments
 ^^^^^^^^^
-rgb(30, 200, 114) BG - Offering to the Goddess
-Divine Vessel - BG Teal
+* rgb(30, 200, 114) BG - Offering to the Goddess
+* Divine Vessel - BG Teal
 
 Flasks
 ^^^^^^
-Utility = Magic
+* Utility = Magic
 
 Chaos Recipe Updates
 ^^^^^^^^^^^^^^^^^^^^
-rgb(255, 0, 235) TX, BD - Helm
-rgb(0, 255, 255) TX, BD - Gloves
-rgb(0, 255, 0) TX, BD - Boots
-rgb(255, 255, 255) TX, BD - Armour
-rgb(255, 0, 0) TX, BD - Weapons
-All BG - rgba(255, 190, 0, 0.8)
+* rgb(255, 0, 235) TX, BD - Helm
+* rgb(0, 255, 255) TX, BD - Gloves
+* rgb(0, 255, 0) TX, BD - Boots
+* rgb(255, 255, 255) TX, BD - Armour
+* rgb(255, 0, 0) TX, BD - Weapons
+* All BG - rgba(255, 190, 0, 0.8)
 
 T1/T2 Accessories
 ^^^^^^^^^^^^^^^^^
-rgba(255, 190, 0, 0.8) TX
+* rgba(255, 190, 0, 0.8) TX
 
 Shaper and Elder
 ^^^^^^^^^^^^^^^^
-rgba(62, 37, 79, 0.558) BG - Tier 3
-Small - Size 30
-All - Size 18
+* rgba(62, 37, 79, 0.558) BG - Tier 3
+* Small - Size 30
+* All - Size 18
 
 Default Item Progression
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Links > 1
-BD Purple
+* Links > 1
+* BD Purple
 
 Flask Progression
 ^^^^^^^^^^^^^^^^^
-Rarity > Normal
+* Rarity > Normal
 
 Sounds
 ~~~~~~

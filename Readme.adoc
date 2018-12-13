@@ -2,164 +2,234 @@ Master Voices
 =============
 :Author:    JusKillmeQik
 :Date:      12/9/18
-:Revision:  1.0
+:Revision:  2.0
 
 Summary
 -------
-This Item Filter aims to make the game more engaging.
-It does so by having the item drops say voice lines from our favorite characters.
-Instead of just 6 boring noises, this item filter has over 45 voice lines based on the item dropped.
-In honor of the Master's rework I favored them this time around.
-I tried to use lines that sounded like they were excited for what we were picking up.
-As I make it through more of betrayal I may pull more voice lines out that I like.
+
+This Item Filter aims to make the game more engaging. 
+It does so by having the item drops say voice lines from our favorite characters. 
+Instead of just 6 boring noises, this item filter has over 50 voice lines based on the item dropped. 
+In honor of the Master's rework I favored them this time around. 
+I tried to use lines that sounded like they were excited for what we were picking up. 
+As I make it through more of betrayal I may pull more voice lines out that I like. 
 I know Lady Dialla isn't a master but I love her voice lines so get ready to hear a lot of her.
 
 If you have a favorite voice line that you think fits really well somewhere, let me know and I'll find it.
 
 Setup
 ~~~~~
+
 As always I am using FilterBlade to build my Item Filter.
 
-http://www.filterblade.xyz/#lqcWfTgnGyE6
+http://www.filterblade.xyz/#yPoA3Ogq5puQ
 
 ༼ つ ◕_◕ ༽つ NeverSink Take My Energy! ༼ つ ◕_◕ ༽つ
 
 Since I never touch the Show/Hide when I make my edits, you can pick any Strictness you like.
-I start with Semi-Strict and I use the Velvet color scheme.
-Unfortunately when you change the color scheme it breaks a lot of what I've done with sounds.
-If you want your own colors, you'll have to build it yourself following this guide.
 
-For presets I use Shaper Currency, Chaos only exclude T1/T2, Never hide Maps, Hide crafting bases
+At the end of the guide I make custom modifications to the velvet style that I like. 
+If you download just the filters in this project that is what you will get. 
+If you don't want my style changes and just want NeverSink's defaults with my sounds, use this link: 
+http://www.filterblade.xyz/#13v36P8j6fGz
 
-In Advanced->Quick Functions, I Increase Font size by 45 and set End Game Threshold to 60
+For presets I use Shaper Currency, Chaos only exclude T1/T2, Never hide Maps
 
-All of the voice lines I pulled from the game using GGPKExtractor.
-I then enhanced them to make them louder and fade properly using Audacity.
-You can do the same thing if you have the time.
-Or you can send me a message and I'll send you a link.
+All of the voice lines I pulled from the game using GGPKExtractor. 
+I then enhanced them to make them louder and fade properly using Audacity. 
+You can do the same thing if you have the time. 
+Or you can follow me on Twitch and I'll pull a voice line for you. 
 
-Modifications
-~~~~~~~~~~~~~
-
-First - Disable Normal Chancing Bases
-
-Currency Updates
-^^^^^^^^^^^^^^^^
-* rgb(100, 50, 30) TX - Scroll of Wisdom
-* rgb(84, 84, 255) TX - Portal Scroll
-
-Fragments
-^^^^^^^^^
-* rgb(30, 200, 114) BG - Offering to the Goddess
-* rgb(30, 200, 200) BG - Divine Vessel
-
-Flasks
-^^^^^^
-* Utility = Magic
-
-Chaos Recipe Updates
-^^^^^^^^^^^^^^^^^^^^
-* rgb(255, 0, 235) TX, BD - Helm
-* rgb(0, 255, 255) TX, BD - Gloves
-* rgb(0, 255, 0) TX, BD - Boots
-* rgb(255, 255, 255) TX, BD - Armour
-* rgb(255, 0, 0) TX, BD - Weapons
-* All BG - rgba(255, 190, 0, 0.8)
-
-T1/T2 Accessories
-^^^^^^^^^^^^^^^^^
-* rgba(255, 190, 0, 0.8) TX
-
-Shaper and Elder
-^^^^^^^^^^^^^^^^
-* rgba(62, 37, 79, 0.558) BG - Tier 3
-* Small - Size 30
-* All - Size 18
-
-Default Item Progression
-^^^^^^^^^^^^^^^^^^^^^^^^
-* Links > 1
-* rgb(98, 16, 117) BD
-
-Flask Progression
-^^^^^^^^^^^^^^^^^
-* Rarity > Normal
+https://www.twitch.tv/juskillmeqik
 
 Sounds
 ~~~~~~
 
-All of the sounds I used are in the filter, but obviously you can't hear them on FilterBlade.
-If you download my filter you'll have to have all of these files in a folder named *sounds* in your filter folder.
+All of the sounds I used are in the filter, but obviously you can't hear them on FilterBlade. 
+If you download my filter you'll have to have all of these files in a folder named *sounds* in your filter folder. 
+If you clone this repo or download it as a zip and extract it to your filter folder, everything should work. 
+By default your filter folder is C:\Users\[yourname]]\Documents\My Games\Path of Exile
 
-Sounds added using style only
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you add sounds using the style section of filterblade, they are lost during a colorscheme change. 
+So I have manually updated all of the sections with the following sounds:
 
-[grid="rows,cols",format="csv"]
-[options="header",cols="<,^,>"]
-|==========================================================================================================
-Filename, Update, Note
-Alva_ThankTheGods.mp3, for Unique, She's back so she gets a major voice line
-Zizaran_Currency.mp3, for Currency, Almost all of these get over written
-Zana_ExceptionallyLucky.mp3, for T0, Always pick these up
-Jun_OverHere.mp3, for T1, "New Maser, gets a major voice line"
-Zana_GoodLuckWithYourMapsExile.mp3, for Map, You'll need it
-Zana_MayYourMapsBeMerciful.mp3, for High Map, Please no reflect
-Zana_NeedAMapExile.mp3, for Low Map, "Yes, I do!"
-Izaro_DarkInfluences.mp3, for Splinter, "His voice sounds so dark, it's perfect for breaches"
-Izaro_DontGiveUp.mp3, for Disabled (Chancing), "I never hear him say this, but if you craft, don't give up"
-|==========================================================================================================
-
-Sounds added manually
-^^^^^^^^^^^^^^^^^^^^^
+Sounds Added
+^^^^^^^^^^^^
 
 [grid="rows,cols",format="csv"]
 [options="header",cols="<,^,>"]
 |========================================================================================================
 Filename, Location, Note
-Gemling_AToken.mp3, for small Chromatic Recipes (Endgame+Leveling), This goes away with the Strict filter
-Gemling_EnoughToMakeAnEmpireWeep.mp3, for 20% Quality Gem/Flask, Rare
-Gemling_IsThisToYourLiking.mp3, for Mid Quality Gems, Might want to turn this off
-Gemling_ILikeYou_NACR.mp3, for 6 sockets, Favorite line in the game
-Gemling_GiveItToMe.mp3, for 6/5L, Rare
-Haku_AWelcomedSight.mp3, for High Tier 1 Currency, Rare
-Haku_TalaMoana.mp3, for High Tier 2 Currency, "Hakuna matata, warrior"
-Navali_SilverFee.mp3, for Silver Coin, Not too often
-HeyListen.mp3, for Mid Tier 2 Currency, "Gets on my nerves, just like Navi"
-Izaro_Ohhh.mp3, for fated Uniques, "Great voice line, I used to use this more"
-Niko_Hehehe.mp3, for remaining Uniques, "Don't pick these up, he's laughing at you"
-Einhar_OneMoreExile.mp3, for T2 Divination, "Einhar love, you're so close to that headhunter"
-Einhar_TakeThese.mp3, for T3 Divination, Themed Div card sounds
-Leo_AlwaysAPleasure.mp3, for T4 Other, "May change this, just wanted a little Leo"
-Zizaran_Currency.mp3, for T5 Div Currency, I need more Zizaran
-Einhar_Supplies.mp3, for T5 Divination, "This voiceline is boring, Very-Strict gets rid of it"
-Jun_PowerfulMagicalObjects.mp3, for Veiled Mods, Don't miss these cool new items!
-Jun_OverHere.mp3, for Scarabs, Reused a voice line until I hear someone say Scarabs!
-Gemling_FittingIsntIt.mp3, for 6 socket Crafting Armor, "The armour fits, get it?"
-Gemling_ThatGlistening.mp3, for 6 socket Crafting Weapons, Glisten with blood
-Izaro_EmbraceOurGifts.mp3, for Uber Lab Offering, Don't embrace the spikes
-Sin_ThatWhichYouNeed.mp3, for T2 Fragments, Sin unlocking Atziri just makes sense to me
-Sin_TheDarkEmber.mp3, for remaining Fragments, "Variation on a theme, I may change this"
-Sin_IGiveItToYou.mp3, for End Game Rare Jewels, I earned it
-Gemling_EveryNowAndThen.mp3, for T1 Accessories, Give me more rare rings please
-Gemling_ThatsWhatYouNeed.mp3, for T2 Accessories, Stop it with all the belts
-Niko_ThisIsGoodStuff.mp3, for T2 Resonators, Master themed loot
-Niko_StayInTheLight.mp3, for T3 Resonators/T4 Fossils, "Not worth picking up, stay in the light"
-Niko_GoodFindExile.mp3, for T2 Fossils, Good enough
-Niko_Hello.mp3, for T3 Fossils, What do we have here?
-Izaro_YouAreWorthy.mp3, for Stygian Vises, Izaro has a good dark voice for Abyss gear
-Izaro_PotentLittleGift.mp3, for Abyss Jewels, But I would love something else themed
-Alva_GlimmeringRiches.mp3, for Stone of Passage/T2 Vials, Master themed loot
-Navali_EssenceOfTheYoung.mp3, for T1/T2/T3 Essences, You can't miss these
-Gemling_DivineJewels.mp3, for max level or T1 Gems, Rare
+sounds/Dialla/AToken.mp3, for Endgame small Chromatic Recipes, "Disabled with the Strict filter"
+sounds/Dialla/EnoughToMakeAnEmpireWeep.mp3, for 20% Quality Gem/Hammer/Flask, "Rare"
+sounds/Dialla/IsThisToYourLiking.mp3, for Mid Quality Gems, "It'll do"
+sounds/Dialla/GiveItToMe.mp3, for 6 sockets, "It's mine"
+sounds/Leo/AlwaysAPleasure.mp3, for 6/5L, "Yes, it is"
+sounds/Izaro/DontGiveUp.mp3, for chancing bases, "Disabled with the Strict filter"
+sounds/Shaper/Perfect.mp3, for High T1 Currency, "Rare"
+sounds/Shaper/Behold.mp3, for High T2 Currency, "What am I holding?"
+sounds/Navali/SilverFee.mp3, for Silver Coin, "Not too often"
+sounds/Shaper/Inconsequential.mp3, for Mid T2 Currency, "Then why am I picking it up?"
+sounds/Zana/ExceptionallyLucky.mp3, for T1 Uniques, "Thank you RNGsus"
+sounds/Jun/OverHere.mp3, for T2 Uniques, "Listen to Jun, she's new"
+sounds/Jun/OverHere.mp3, for Multi-base Uniques, "Listen to Jun, she's new"
+sounds/Alva/ThankTheGods.mp3, for fated Uniques, "I need more new master voice lines"
+sounds/Niko/LooksLikeShit.mp3, for remaining Uniques, "Don't pick these up, he's warning you"
+sounds/Einhar/Yes.mp3, for T1 Divination, "So close to that Head Hunter"
+sounds/Einhar/OneMoreExile.mp3, for T2 Divination, "Actually I need 7 more"
+sounds/Einhar/TakeThese.mp3, for T3 Divination, "More Einhar"
+sounds/Einhar/EinharIsPleased.mp3, for T4 Div Currency, "I'm not pleased"
+sounds/Einhar/EinharWillTakeIt.mp3, for T4 Other, "Good, cuz I don't want it"
+sounds/Einhar/GreatJobExile.mp3, for T5 Div Currency, "Sarcasm and encouragement are hard to tell apart"
+sounds/Einhar/Supplies.mp3, for T5 Divination, "This voiceline gets old, Very-Strict gets rid of it"
+sounds/Jun/PowerfulMagicalObjects.mp3, for Veiled Mods, "Don't miss these cool new items!"
+sounds/Jun/OverHere.mp3, for T1 Scarabs, "Gilded!"
+sounds/Dialla/ResourcefulUnBug.mp3, for T2 Scarabs, "Cuz Scarabs are resourceful un-bugs"
+sounds/Dialla/ILikeYouNotACockroach.mp3, for T1 Scarabs, "Favorite voice line, give me more Scarabs"
+sounds/Dialla/FittingIsntIt.mp3, for 6 socket Crafting Armor, "The armour fits, get it?"
+sounds/Dialla/ThatGlistening.mp3, for 6 socket Crafting Weapons, "Glisten with blood"
+sounds/Zana/ExceptionallyLucky.mp3, for T16 Maps, "Lucky indeed"
+sounds/Zana/MayYourMapsBeMerciful.mp3, for T11-T15 Maps, "Please no reflect"
+sounds/Zana/GoodLuckWithYourMapsExile.mp3, for T6-T10 Maps, "You'll need it"
+sounds/Zana/NeedAMapExile.mp3, for T1-T5 and outleveled Maps, "Yes, I do"
+sounds/Izaro/EmbraceOurGifts.mp3, for Uber Lab Offering, "Don't embrace the spikes"
+sounds/Izaro/YouWereBornForThis.mp3, for Fragments T1, "You'll die for it too"
+sounds/Izaro/PotentLittleGift.mp3, for Fragments T2, "Too potent"
+sounds/Izaro/ReceiveOurBlessings.mp3, for Fragments T3, "And a pantheon boost"
+sounds/Izaro/Ohhh.mp3, for Fragments Remaining, "Great voice line, I used to use this more"
+sounds/Zana/ExceptionallyLucky.mp3, for Unique Maps T1, "Lucky indeed"
+sounds/Jun/OverHere.mp3, for Unique Maps T2, "New Maser, gets a major voice line"
+sounds/Alva/ThankTheGods.mp3, for Unique Maps T3, "She's back so she gets a voice line"
+sounds/Zana/ExceptionallyLucky.mp3, for Atlas Exclusive T1 86, "Lucky indeed"
+sounds/Jun/OverHere.mp3, for Atlas Exclusive T1-T2 86, "New Maser, gets a major voice line"
+sounds/Alva/ThankTheGods.mp3, for Atlas Exclusive T2 84-T2 Rare, "I would like more Jun Voices here"
+sounds/Niko/Ooooh.mp3, for Atlas Exclusive T3 86-T3 86 Rare, "I would like more Jun Voices here too"
+sounds/Sin/IGiveItToYouFreely.mp3, for End Game Rare Jewels, "I earned it"
+sounds/Niko/Impressive.mp3, for White socket 1H 3X, "Tic-Tac-Toe 3 in a row"
+sounds/Haku/AWelcomedSight.mp3, for T1 Accessories, "Give me more rare rings please"
+sounds/Haku/TalaMoana.mp3, for T2 Accessories, "What's with all the belts?"
+sounds/Zana/ExceptionallyLucky.mp3, for Shaper/Elder T0-T1, "Lucky indeed"
+sounds/Shaper/UltimateChaos.mp3, for Shaper/Elder T2, "What's better than chaos?"
+sounds/Niko/YouveDoneItNowExileYouveReallyDoneItNow.mp3, for Reliquary Keys and T1 Resonators and Fossils, "What did I do?"
+sounds/Niko/TellMeWhatDoYouThinkIsWorthMore.mp3, Delve Mods, "Veiled mods are probably worth more"
+sounds/Niko/ThisIsGoodStuff.mp3, for T2 Resonators, "Master themed loot"
+sounds/Niko/StayInTheLight.mp3, for T3 Resonators/T4 Fossils, "Not worth picking up, stay in the light"
+sounds/Niko/GoodFindExile.mp3, for T2 Fossils, "Good enough"
+sounds/Niko/Hello.mp3, for T3 Fossils, "What do we have here?"
+sounds/Izaro/YouAreWorthy.mp3, for Stygian Vises, "Izaro has a good dark voice for Abyss gear"
+sounds/Shaper/GazeIntoTheAbyss.mp3, for Abyss Jewels, "Or let them gaze at you"
+sounds/Izaro/DarkInfluences.mp3, for Splinters, "This sounds so cool over and over when you open a breach"
+sounds/Sin/TheDarkEmber.mp3, for Blessings, "How can ember be dark?"
+sounds/Alva/GlimmeringRiches.mp3, for Stone of Passage/T2 Vials, "Master themed loot"
+sounds/Zana/ExceptionallyLucky.mp3, for T1 Vials, "I need an exciting Alva line for this"
+sounds/Alva/ThankTheGods.mp3, Incursion Mods, "Of course"
+sounds/Zana/GoodLuckWithYourMapsExile.mp3, for Incursion Maps, "Zana points out maps"
+sounds/Navali/EssenceOfTheYoung.mp3, for T1/T2/T3 Essences, "You can't miss these, but here's a sound"
+sounds/Niko/Hehehe.mp3, Harbinger Currency, "Don't go to the beachhead unless you want a lot of laughter"
+sounds/Alva/ThankTheGods.mp3, Warband items, "What voice fits here?"
+sounds/Einhar/YouHuntWell.mp3, Bestiary Mods, "Themed if it happens"
+sounds/Dialla/EveryNowAndThen.mp3, for Leveling small Chromatic Recipes, "This goes away with the Strict filter"
+sounds/Sin/ThatWhichYouNeed.mp3, for 4 Linked gear, "I only need this for a little while"
+sounds/Haku/TalaMoana.mp3, for Utility Flasks and Leveling Rares, "Hakuna matata, warrior"
+sounds/Alva/ThankTheGods.mp3, Identified Mods, "I wish I had more Alva lines"
+sounds/Zana/ExceptionallyLucky.mp3, for Valuable 6L Armour, "I need more exciting Jun lines too"
+sounds/Jun/OverHere.mp3, for Valuable 6L and 5L Uniques, "Probably worth picking up"
+sounds/Leo/AlwaysAPleasure.mp3, for 5L items, "Why do you hit so hard Leo?"
+sounds/Dialla/DivineJewels.mp3, for max level or T1 Gems, "Doesn't happen often"
+sounds/Zana/ExceptionallyLucky.mp3, for Top Gems, "So much work"
+Normal 21 Orb of immense power, for Shaper Orb, "Don't know why that's not set by default"
+sounds/Zana/ExceptionallyLucky.mp3, for Tabula, "Free leveling"
+sounds/Einhar/GreatJobExile.mp3, for Wolf's Shadow, "Same as Div Currency earlier"
+sounds/Zana/ExceptionallyLucky.mp3, for Fishing Rod, "I heard someone say fish the other day and then forgot who it was"
+sounds/Niko/GottaGrabEmBeforeSomeoneElseDoes.mp3, for Loreweaver rings, "Since Niko calls all Uniques shit, this seemed important to separate"
 |========================================================================================================
+
+Modifications
+~~~~~~~~~~~~~
+These modifications are what I use to make it easier to see what I want to pick up. 
+If you don't want to use them, just download the filter you want from this link: 
+http://www.filterblade.xyz/#13v36P8j6fGz
 
 Added icons to some things that make noise
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.It was annoying hearing a cool voice line and then not being able to find what dropped so I added just the default blue circle icon to the map anywhere I added a sound that didn't have one:
+.It was annoying hearing a cool voice line and then not being able to find what dropped so I added icons to the map anywhere I added a sound that didn't have one:
 * Small Chromatic Recipe
-* 20% Flask
+* 20% Flask/Hammer
+* Chancing Bases
 * Silver Coin / T2 Currency
 * Low Tier Div Cards
+* Outleveled Maps
+* White sockets
+* Accessories
+* 4 Link Gear
+* Utility Flasks
+* Loreweave Rings
 
 I also removed the icon and beam from remaining (worthless) unique items
+
+If you would like just these changes here is the link:
+http://www.filterblade.xyz/#VXWnbaGdwrNm
+
+Advanced Changes
+^^^^^^^^^^^^^^^^
+.In order to make things easier to click, I set these items to max size:
+* Portal Scroll
+* Scroll of Wisdom
+* Div T5
+* White Sockets
+* Chaos Recipe Rares
+* Essences
+* Harbinger Currency
+
+In Advanced->Quick Functions, I set End Game Threshold to 60 so the Rings for Chaos recipe show up sooner.
+
+Again if you would like just these changes:
+http://www.filterblade.xyz/#BrFgvjJdDsig
+
+Functional Changes
+^^^^^^^^^^^^^^^^^^
+.I make a few functional changes to keep my screen clear
+* Utility Flasks - Rarity = Magic
+* Default Item Progression - Links > 2
+* Flask Progression - Rarity > Normal
+* Disable things you are uninterested in like quivers (for you, I changed nothing)
+
+Again if you would like just these changes:
+http://www.filterblade.xyz/#1fHCOM14WAFz
+
+Color Changes
+^^^^^^^^^^^^^
+I have set up the filter in such a way that you can change the colors to anything you want.
+I like Velvet so I start with that, then I set the style->Background Color->Rare T1 to rgb(0, 20, 40)
+
+I set the Scroll of Wisdom and Portal Scroll to have the same TX as BG.
+
+I set the Offering to the Goddess to have BG rgb(30, 200, 114)
+
+I set the Divine Vessel to have BG rgb(30, 200, 200)
+
+.I have my own Chaos recipe colors that help me sort a little easier when I only have some enabled
+* Helm    - TX, BD - rgb(0, 255, 0)
+* Gloves  - TX, BD - rgb(0, 255, 255)
+* Boots   - TX, BD - rgb(255, 0, 235)
+* Armour  - TX, BD - rgb(255, 255, 255)
+* Weapons - TX, BD - rgb(255, 0, 0)
+
+I then set the background of all of them to chaos gold rgba(255, 190, 0, 0.8)
+
+I set the Endgame T1/T2 Accessories TX to chaos gold as well so I know which ones work in the Chaos Recipe rgba(255, 190, 0, 0.8)
+
+The T3 Shaper and Elder gear cannot be hidden, so I make the small gear size 30 and the rest size 18.
+I also lower the transparency to .5
+
+Again if you would like just these changes:
+http://www.filterblade.xyz/#RSADWo9F7Wl2
+
+Finishing Touches
+^^^^^^^^^^^^^^^^^
+The only thing left to do is sort by current Economy Data for Uniques and Div cards.
+
+You can do this yourself from the last link that was posted, or just download the filter as-is from this project to get it.
+
+I will update the current Economy Data every now and then and push those changes to this repo, just check the commit history to see the last update.

@@ -1,5 +1,5 @@
 80+ Master Voice Lines Item Filter 3.5
-=============
+======================================
 :Author:    JusKillmeQik
 :Date:      12/16/18
 :Revision:  3.1
@@ -244,12 +244,12 @@ http://www.filterblade.xyz/#eJOSvjZWCKRP
 
 Finishing Touches
 ^^^^^^^^^^^^^^^^^
-The only thing left to do is sort by current Economy Data for Uniques and Div cards. 
-For Uniques I sort by highest value with T0 at 10c and T1 at 5c and then move all purple items out of Tier 0 and into Tier 1. 
-I changed T1's TX color to be black so it would be different than multi-bases so I can tell the difference between my sorted multi-bases and default multi-bases. 
-Then after I download the filter, I move the multi-base Uniques section to the top of the Uniques list in the filter file. 
-This means if NeverSink already flagged it as a multi-base it will highlight properly. 
-Multi-bases he didn't know about will just have a high tier highlight for now. 
+The only thing left to do is sort by current Economy Data for Uniques and Div cards.
+For Uniques I sort by highest value with T0 at 10c and T1 at 5c and then move all purple items out of Tier 0 and into Tier 1.
+I changed T1's TX color to be black so it would be different than multi-bases so I can tell the difference between my sorted multi-bases and default multi-bases.
+Then after I download the filter, I move the multi-base Uniques section to the top of the Uniques list in the filter file.
+This means if NeverSink already flagged it as a multi-base it will highlight properly.
+Multi-bases he didn't know about will just have a high tier highlight for now.
 Dear NeverSink, please auto sort multi-bases into 0.5 and 1.5 tiers.
 
 You can do this yourself, or just download the filter as-is from this project to get it and re-sort at your own peril.

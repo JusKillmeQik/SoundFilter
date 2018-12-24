@@ -9,7 +9,7 @@ Summary
 
 This Item Filter aims to make the game more engaging.
 It does so by having the item drops say voice lines from our favorite characters.
-Instead of just 6 boring noises, this item filter has over 50 voice lines based on the item dropped.
+Instead of just 6 boring noises, this item filter has over 80 voice lines based on the item dropped.
 In honor of the Master's rework I favored them this time around.
 I tried to use lines that sounded like they were excited for what we were picking up.
 As I make it through more of betrayal I may pull more voice lines out that I like.
@@ -46,12 +46,13 @@ Sounds
 ~~~~~~
 
 All of the sounds I used are in the filter, but obviously you can't hear them on FilterBlade.
-If you download my filter you'll have to have all of these files in a folder named *sounds* in your filter folder.
+If you download my filter you'll have to have all of these files in a folder named *Sounds* in your filter folder.
 If you clone this repo or download it as a zip and extract it to your filter folder, everything should work.
 By default your filter folder is C:\Users\[yourname]]\Documents\My Games\Path of Exile
 
 If you add sounds using the style section of filterblade, they are lost during a colorscheme change.
 So I have manually updated all of the sections with the following sounds:
+
 
 Sounds Added
 ^^^^^^^^^^^^
@@ -164,6 +165,7 @@ These modifications are what I use to make it easier to see what I want to pick 
 If you don't want to use them, just download the plain sound filter you want from this link:
 http://www.filterblade.xyz/#dKh3pxZ39aJQ
 
+
 Added icons to some things that make noise
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -184,8 +186,6 @@ I also made the icon a circle instead of a star for remaining (worthless) unique
 
 And I made the veiled mods light beam permanent.
 
-If you would like just these changes here is the link:
-http://www.filterblade.xyz/#RRzoNesPwqW4
 
 Advanced Changes
 ^^^^^^^^^^^^^^^^
@@ -199,8 +199,6 @@ Advanced Changes
 
 In Advanced->Quick Functions, I set End Game Threshold to 60 so the Rings for Chaos recipe show up sooner.
 
-Again if you would like just these changes:
-http://www.filterblade.xyz/#Ae6gWTo4c2Q8
 
 Functional Changes
 ^^^^^^^^^^^^^^^^^^
@@ -210,8 +208,6 @@ Functional Changes
 * Flask Progression - Rarity > Normal
 * Finetune: Disable things you are uninterested in like quivers (for you, I changed nothing)
 
-Again if you would like just these changes:
-http://www.filterblade.xyz/#0pQnrF9xjYer
 
 Color Changes
 ^^^^^^^^^^^^^
@@ -239,8 +235,6 @@ I set the Endgame T1/T2 Accessories TX to chaos gold as well so I know which one
 The T3 Shaper and Elder gear cannot be hidden, so I make the small gear size 30 and the rest size 18.
 I also lower the transparency to .5
 
-Again if you would like just these changes:
-http://www.filterblade.xyz/#eJOSvjZWCKRP
 
 Finishing Touches
 ^^^^^^^^^^^^^^^^^

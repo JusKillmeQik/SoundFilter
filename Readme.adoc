@@ -1,8 +1,8 @@
 80+ Master Voice Lines Item Filter 3.5
 ======================================
 :Author:    JusKillmeQik
-:Date:      12/16/18
-:Revision:  3.1
+:Date:      12/26/18
+:Revision:  3.2
 
 Summary
 -------
@@ -20,13 +20,15 @@ If you have a favorite voice line that you think fits really well somewhere, let
 Setup
 ~~~~~
 
-As always I am using FilterBlade to build my Item Filter.
+As always, I am using FilterBlade to build my Item Filter.
 
-http://www.filterblade.xyz/#ftuhwNYPM7HO
+http://www.filterblade.xyz/#jkFurGgEdjfv
 
 ༼ つ ◕_◕ ༽つ NeverSink Take My Energy! ༼ つ ◕_◕ ༽つ
 
-Since I never touch the Show/Hide when I make my edits, you can pick any Strictness you like.
+Since I never touch the Show/Hide when I make my edits, you can pick any Strictness you like. 
+I recommend Very Strict so you don't get overwhelmed with sounds, but at lower levels you can get away with a lower strictness.
+
 
 At the end of the guide I make custom modifications to the velvet style that I like.
 If you download just the filters in this project that is what you will get.
@@ -67,6 +69,7 @@ sounds/Gravicius/ClearlySuperior.mp3, for Mid Quality Gems, "Very Superior"
 sounds/Catarina/GreaterThanYouCouldHaveEverHoped.mp3, for 20% Hammer/Flask, "Very Rare"
 sounds/Dialla/GiveItToMe.mp3, for 6 sockets, "It's mine"
 sounds/Leo/AlwaysAPleasure.mp3, for 6S/5L, "Yes, it is"
+sounds/Guff/ComeBackForMore.mp3, for Loreweaver rings, "Since most Uniques are bad, this seemed important to separate"
 sounds/Leo/SwingTheOdds.mp3, for chancing bases, "Disabled with the Strict filter"
 sounds/Jun/ScatteredAcrossPlainsAndMountains.mp3, for High T1 Currency, "Cool long voice line for rare drops"
 sounds/Jun/PowerfulMagicalObjects.mp3, for High T2 Currency, "How powerful exactly?"
@@ -156,7 +159,6 @@ Normal 21 Orb of immense power, for Shaper Orb, "Don't know why that's not set b
 sounds/Zana/ExceptionallyLucky.mp3, for Tabula, "Free leveling"
 sounds/Einhar/GreatJobExile.mp3, for Wolf's Shadow, "Same as Div Currency earlier"
 sounds/Zana/ExceptionallyLucky.mp3, for Fishing Rod, "I heard someone say fish the other day and then forgot who it was"
-sounds/Guff/ComeBackForMore.mp3, for Loreweaver rings, "Since most Uniques are shit, this seemed important to separate"
 |========================================================================================================
 
 Modifications
@@ -172,6 +174,7 @@ Added icons to some things that make noise
 .It was annoying hearing a cool voice line and then not being able to find what dropped so I added icons to the map anywhere I added a sound that didn't have one:
 * Small Chromatic Recipe
 * 20% Hammer/Flask
+* Loreweave Rings
 * Chancing Bases
 * Silver Coin / T2 Currency
 * Low Tier Div Cards
@@ -180,11 +183,10 @@ Added icons to some things that make noise
 * Accessories
 * 4 Link Gear
 * Utility Flasks
-* Loreweave Rings
 
-I also made the icon a circle instead of a star for remaining (worthless) unique items.
+I added temporary light beams to the chaos recipe drops.
 
-And I made the veiled mods light beam permanent.
+I also made the veiled mods light beam permanent.
 
 
 Advanced Changes
@@ -193,7 +195,7 @@ Advanced Changes
 * All Currency
 * Div T5
 * White Sockets
-* Chaos Recipe Rares
+* Chaos Recipe Rares (set to 40 so they aren't overwhelming)
 * Essences
 * Harbinger Currency
 
@@ -222,13 +224,13 @@ I set the Offering to the Goddess to have BG rgb(30, 200, 115)
 I set the Divine Vessel to have BG rgb(30, 200, 200)
 
 .I have my own Chaos recipe colors that help me sort a little easier when I only have some enabled
-* Helm    - TX, BD - rgb(0, 255, 0)
-* Gloves  - TX, BD - rgb(0, 255, 255)
-* Boots   - TX, BD - rgb(255, 0, 235)
-* Armour  - TX, BD - rgb(255, 255, 255)
-* Weapons - TX, BD - rgb(255, 0, 0)
+* Helm    - TX Green - rgb(0, 128, 0)
+* Gloves  - TX Blue  - rgb(100, 100, 255)
+* Boots   - TX Brown - rgb(175, 96, 37)
+* Armour  - TX White - rgb(255, 255, 255)
+* Weapons - TX Red   - rgb(255, 0, 0)
 
-I then set the background of all of them to chaos gold rgba(255, 190, 0, 0.8)
+I then set the background of all of them to dark rgba(0, 0, 0, 0.8) and the border to chaos gold rgba(255, 190, 0, 0.8)
 
 I set the Endgame T1/T2 Accessories TX to chaos gold as well so I know which ones work in the Chaos Recipe rgba(255, 190, 0, 0.8)
 
@@ -239,11 +241,9 @@ I also lower the transparency to .5
 Finishing Touches
 ^^^^^^^^^^^^^^^^^
 The only thing left to do is sort by current Economy Data for Uniques and Div cards.
-For Uniques I sort by highest value with T0 at 10c and T1 at 5c and then move all purple items out of Tier 0 and into Tier 1.
-I changed T1's TX color to be black so it would be different than multi-bases so I can tell the difference between my sorted multi-bases and default multi-bases.
-Then after I download the filter, I move the multi-base Uniques section to the top of the Uniques list in the filter file.
-This means if NeverSink already flagged it as a multi-base it will highlight properly.
-Multi-bases he didn't know about will just have a high tier highlight for now.
-Dear NeverSink, please auto sort multi-bases into 0.5 and 1.5 tiers.
+
+For Uniques, I sort by lowest value so I know it's definitely worth picking up. I set the T0 value to 20c and the T1 value to 4c. All of the items that get lost by this filter method are picked up by NeverSink's multi-base filter. There are a few that are left out but they only drop from very rare bosses, so just make sure to pick up everything from fancy bosses and you'll be fine.
+
+Dear NeverSink, give us the option to sort multi-base tiers like 0.5 and 1.5 based on the lowest and highest values of a given item from poeninja.
 
 You can do this yourself, or just download the filter as-is from this project to get it and re-sort at your own peril.

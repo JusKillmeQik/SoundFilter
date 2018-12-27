@@ -184,7 +184,7 @@ Added icons to some things that make noise
 * 4 Link Gear
 * Utility Flasks
 
-I added temporary light beams to the chaos recipe drops.
+I added light beams to the T1 Rare drops so I can pick them out of a crowd for identifying.
 
 I also made the veiled mods light beam permanent.
 
@@ -195,9 +195,10 @@ Advanced Changes
 * All Currency
 * Div T5
 * White Sockets
-* Chaos Recipe Rares (set to 40 so they aren't overwhelming)
 * Essences
 * Harbinger Currency
+
+I set the size of the Chaos Recipe rares to 35 so they aren't overwhelming and the armour and weapons to 30 since they are so common. I often want to know they are there but I am not picking them up every time.
 
 In Advanced->Quick Functions, I set End Game Threshold to 60 so the Rings for Chaos recipe show up sooner.
 
@@ -225,12 +226,14 @@ I set the Divine Vessel to have BG rgb(30, 200, 200)
 
 .I have my own Chaos recipe colors that help me sort a little easier when I only have some enabled
 * Helm    - TX Green - rgb(0, 128, 0)
-* Gloves  - TX Blue  - rgb(100, 100, 255)
+* Gloves  - TX Blue  - rgb(60, 60, 255)
 * Boots   - TX Brown - rgb(175, 96, 37)
 * Armour  - TX White - rgb(255, 255, 255)
 * Weapons - TX Red   - rgb(255, 0, 0)
 
 I then set the background of all of them to dark rgba(0, 0, 0, 0.8) and the border to chaos gold rgba(255, 190, 0, 0.8)
+
+I added Regal veresions that are identical except 5 sizes smaller and with a light blue border rgb(100, 100, 255)
 
 I set the Endgame T1/T2 Accessories TX to chaos gold as well so I know which ones work in the Chaos Recipe rgba(255, 190, 0, 0.8)
 

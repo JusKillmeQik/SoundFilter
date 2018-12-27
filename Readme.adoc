@@ -22,7 +22,7 @@ Setup
 
 As always, I am using FilterBlade to build my Item Filter.
 
-http://www.filterblade.xyz/#iDJlDObpUH61
+http://www.filterblade.xyz/#6eDshjXZAXPw
 
 ༼ つ ◕_◕ ༽つ NeverSink Take My Energy! ༼ つ ◕_◕ ༽つ
 
@@ -197,6 +197,8 @@ Advanced Changes
 * White Sockets
 * Essences
 * Harbinger Currency
+
+I move Chisels to T2 so it's a Powerful Magical Object instead of an Orb of Immense Power, and I put all of the sextants in their own tier so they have the same voice line.
 
 I set the size of the Chaos Recipe rares to 35 so they aren't overwhelming and the armour and weapons to 30 since they are so common. I often want to know they are there but I am not picking them up every time.
 

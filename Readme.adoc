@@ -22,7 +22,7 @@ Setup
 
 As always, I am using FilterBlade to build my Item Filter.
 
-http://www.filterblade.xyz/#6eDshjXZAXPw
+http://www.filterblade.xyz/#wgghepXmXIow
 
 ༼ つ ◕_◕ ༽つ NeverSink Take My Energy! ༼ つ ◕_◕ ༽つ
 
@@ -33,7 +33,7 @@ I recommend Very Strict so you don't get overwhelmed with sounds, but at lower l
 At the end of the guide I make custom modifications to the velvet style that I like.
 If you download just the filters in this project that is what you will get.
 If you don't want my style changes and just want NeverSink's defaults with my sounds, use this link:
-http://www.filterblade.xyz/#dKh3pxZ39aJQ
+http://www.filterblade.xyz/#qaJA172HdP24
 
 For presets I use Shaper Currency, Chaos only exclude T1/T2, Never hide Maps
 
@@ -80,7 +80,7 @@ sounds/Guff/TodaysTheDay.mp3, for T2 Uniques, "It's probably worth nothing"
 sounds/Guff/IveGotTreasureForYou.mp3, for Multi-base Uniques, "Do I only have 8 seconds to pick it up?"
 sounds/Guff/ShortEndOfTheStick.mp3, for Multi-base League Specific Uniques, "Better than the short end of a sword"
 sounds/Guff/AConsolationPrize.mp3, for fated Uniques, "So I didn't get the worst unique..."
-sounds/Guff/BlisteringBollocks.mp3, for remaining Uniques, "Don't pick these up, or he'll get mad at you"
+sounds/Gravicius/Disappointing.mp3, for remaining Uniques, "So disappointing"
 sounds/Einhar/Yes.mp3, for T1 Divination, "So close to that Head Hunter"
 sounds/Einhar/OneMoreExile.mp3, for T2 Divination, "Actually I need 7 more"
 sounds/Einhar/TakeThese.mp3, for T3 Divination, "More Einhar"
@@ -165,7 +165,7 @@ Modifications
 ~~~~~~~~~~~~~
 These modifications are what I use to make it easier to see what I want to pick up.
 If you don't want to use them, just download the plain sound filter you want from this link:
-http://www.filterblade.xyz/#dKh3pxZ39aJQ
+http://www.filterblade.xyz/#qaJA172HdP24
 
 
 Added icons to some things that make noise
@@ -247,7 +247,7 @@ Finishing Touches
 ^^^^^^^^^^^^^^^^^
 The only thing left to do is sort by current Economy Data for Uniques and Div cards.
 
-For Uniques, I sort by lowest value so I know it's definitely worth picking up. I set the T0 value to 20c and the T1 value to 4c. All of the items that get lost by this filter method are picked up by NeverSink's multi-base filter. There are a few that are left out but they only drop from very rare bosses, so just make sure to pick up everything from fancy bosses and you'll be fine.
+For Uniques, I sort by lowest value so I know it's definitely worth picking up. I set the T0 value to 20c and the T1 value to 3c. All of the items that get lost by this filter method are picked up by NeverSink's multi-base filter. There are a few that are left out but they only drop from very rare bosses, so just make sure to pick up everything from fancy bosses and you'll be fine.
 
 Dear NeverSink, give us the option to sort multi-base tiers like 0.5 and 1.5 based on the lowest and highest values of a given item from poeninja.
 

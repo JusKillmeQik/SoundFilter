@@ -8,8 +8,8 @@ Summary
 -------
 
 This Item Filter aims to make the game more engaging.
-It does so by having the item drops say voice lines from our favorite characters.
-Instead of just 6 boring noises, this item filter has over 80 voice lines based on the item dropped.
+It does so by having the item drops play voice lines from our favorite characters.
+Instead of just 6 standard noises, this item filter has over 80 themed voice lines based on the item drop.
 In honor of the Master's rework I favored them this time around.
 I tried to use lines that sounded like they were excited for what we were picking up.
 As I make it through more of betrayal I may pull more voice lines out that I like.

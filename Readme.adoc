@@ -1,8 +1,8 @@
 80+ Master Voice Lines Item Filter 3.5
 ======================================
 :Author:    JusKillmeQik
-:Date:      12/26/18
-:Revision:  3.2
+:Date:      12/29/18
+:Revision:  3.3
 
 Summary
 -------
@@ -22,7 +22,7 @@ Setup
 
 As always, I am using FilterBlade to build my Item Filter.
 
-http://www.filterblade.xyz/#wgghepXmXIow
+http://www.filterblade.xyz/#RxRCEruGyGka
 
 ༼ つ ◕_◕ ༽つ NeverSink Take My Energy! ༼ つ ◕_◕ ༽つ
 
@@ -33,7 +33,7 @@ I recommend Very Strict so you don't get overwhelmed with sounds, but at lower l
 At the end of the guide I make custom modifications to the velvet style that I like.
 If you download just the filters in this project that is what you will get.
 If you don't want my style changes and just want NeverSink's defaults with my sounds, use this link:
-http://www.filterblade.xyz/#qaJA172HdP24
+http://www.filterblade.xyz/#UkxosVJ6169h
 
 For presets I use Shaper Currency, Chaos only exclude T1/T2, Never hide Maps
 
@@ -165,7 +165,7 @@ Modifications
 ~~~~~~~~~~~~~
 These modifications are what I use to make it easier to see what I want to pick up.
 If you don't want to use them, just download the plain sound filter you want from this link:
-http://www.filterblade.xyz/#qaJA172HdP24
+http://www.filterblade.xyz/#UkxosVJ6169h
 
 
 Added icons to some things that make noise
